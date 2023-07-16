@@ -68,3 +68,71 @@ header{
     justify-content: center;
 
 }
+
+/* signup and sign in css */
+
+.main__div {
+    
+    border-radius: 43px;
+background: linear-gradient(180deg, #421717 0%, rgba(209, 160, 160, 0.00) 100%);
+width: 700px ;
+margin-left: 4em ;
+margin-right:0cm ;
+flex-shrink: 0;
+margin: 6px;
+padding: 2rem;
+}
+
+.user {
+    width: 226px;
+height: 40px;
+flex-shrink: 0;
+color: #969696;
+text-align: center;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 36px */
+}
+.username__div{
+    padding: 4%;
+    width: 453px;
+height: 67px;
+flex-shrink: 0;
+border-radius: 31px;
+background: #D9D9D9;
+}
+
+.signup__div{
+    margin: auto;
+    width: 535px;
+height: 87px;
+flex-shrink: 0;
+border-radius: 33px;
+background: #7D80DA;
+}
+.sign__style{
+    width: 247px;
+height: 53px;
+flex-shrink: 0;
+color: #090101;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 40px */
+}
+.ending{
+    width: 391px;
+height: 70px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 24px */
+}
