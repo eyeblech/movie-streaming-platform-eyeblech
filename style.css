@@ -103,15 +103,6 @@ flex-shrink: 0;
 border-radius: 31px;
 background: #D9D9D9;
 }
-
-.signup__div{
-    margin: auto;
-    width: 535px;
-height: 87px;
-flex-shrink: 0;
-border-radius: 33px;
-background: #7D80DA;
-}
 .sign__style{
     width: 247px;
 height: 53px;
@@ -135,4 +126,17 @@ font-size: 24px;
 font-style: normal;
 font-weight: 600;
 line-height: 100%; /* 24px */
+}
+
+/* sign in css */
+
+.signin_div{
+    border-radius: 43px;
+    background: linear-gradient(180deg, #421717 0%, rgba(209, 160, 160, 0.00) 100%);
+    width: 700px ;
+    margin-left: 4em ;
+    margin-right:0cm ;
+    flex-shrink: 0;
+    margin: 6px;
+    padding: 2rem;
 }
