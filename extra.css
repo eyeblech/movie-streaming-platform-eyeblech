@@ -1,0 +1,29 @@
+body{
+    background-color: white;
+}
+
+.piracy_div{
+    padding: 2rem;
+    
+}
+.piracy_h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.piracy_ul{
+    text-align: none;
+}
+.long_live{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+.index_home{
+    text-align: center;
+    
+}
+span{
+    text-emphasis-color: white;
+    
+}
