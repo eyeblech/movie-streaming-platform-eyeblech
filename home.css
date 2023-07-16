@@ -8,14 +8,14 @@
     display: flex;
     align-items: self-end;
     height: 60px;
-    background-color: rgb(39, 39, 194);
+   background:rgb(93, 93, 198);
+    padding-bottom: 5px;
 }
 .header .logo img{
     margin-top: 10px;
     margin-left: 20px;
     background-color: red;
-    height: 45px;
-    width: 80px;
+    width: 130px;
 }
 
 .navbar ul{
@@ -40,4 +40,52 @@
 }
 .navbar ul li a:hover{
     color: red;
+}
+.right_nav{
+    display: flex;
+    align-items: self-end;
+    justify-content: space-between;
+    width: 100%; 
+   
+}
+.search_bar{
+    display: flex;
+    align-items: center;
+    
+    background-color: rgb(149, 146, 146);
+    border-radius: 10px;
+    padding-right: 10px;
+    height:25px; 
+
+}
+.search_bar input{
+    width: 30rem;
+    height: 25px;
+    border-style: none;
+    outline: none;
+    padding-left: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+}
+.left_header{
+    display: flex;
+    gap: 2.5rem;
+    align-items: self-end;
+    justify-content: center;
+    width: 100%;
+}
+.left_header .read{
+    height: 2rem;
+    width: 7rem;
+    border-radius: 2.5rem;
+    border-style: none;
+}
+.left_header .Sign{
+    font-size: large;
+    border: 1px solid black;
+    height: 3rem;
+    width: 8rem;
+    box-shadow: -10px  5px 5px;
+
 }
