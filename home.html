@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="home.css">
+     <!-- -owl carousel link- -->
+     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
     <title>Document</title>
 </head>
 <body>
@@ -37,5 +44,87 @@
          </div> 
             
     </header>
+
+    <!--    home page section start  -->
+
+    <section class="home" id="home">
+           
+
+
+        <div class="owl-carousel owl-theme" id="carousel">
+            <div class="item">
+                <img src="assets/slide1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/slide2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/slide3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="assets/slide4.jpg" alt="">
+            </div>
+        </div>
+        
+        <div class="container">
+            <h2>Mr.Robot</h2>
+            <div class="icon">
+                <i><img src="assets/3dicons.png" alt=""></i>
+                <i><img src="assets/3dicons2.png" alt=""></i>
+                <i><img src="assets/3dicons3.png" alt=""></i>
+            </div>
+        </div>
+      <!-- movie display section -->
+      <section class="display">
+
+          <div class="Trending">
+              <h2><i class="fa fa-star"></i>Trending</h2>
+              <div class="movie">
+                  <img src="assets/slide3.jpg" alt="">
+                  <img src="assets/slide1.jpg" alt="">
+                  <img src="assets/slide2.jpg" alt="">
+                  <img src="assets/slide3.jpg" alt="">
+                </div>
+            </div> 
+
+            <div class="Trending">
+                <h2><i class="fa fa-star"></i>TV SHOW /MOVIES/ ANIME</h2>
+                <div class="movie">
+                    <img src="assets/slide2.jpg" alt="">
+                    <img src="assets/slide1.jpg" alt="">
+                    <img src="assets/slide4.jpg" alt="">
+                    <img src="assets/slide2.jpg" alt="">
+                  </div>
+              </div> 
+
+              <div class="Trending">
+                <h2><i class="fa fa-star"></i>TOP IMDB</h2>
+                <div class="movie">
+                    <img src="assets/bitcoin_address.png" alt="">
+                    <img src="assets/slide3.jpg" alt="">
+                    <img src="assets/slide1.jpg" alt="">
+                    <img src="assets/slide2.jpg" alt="">
+                  </div>
+              </div> 
+      </section>
+       
+    </section>
+
+    <script >
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout: 2000,
+    responsive:{
+        0:{
+            items:1
+        },
+       
+    }
+})
+    </script>
 </body>
 </html>

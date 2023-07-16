@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(102, 104, 104);
+    height: 200vh;
+}
 /*------header section css----*/
 .header{
     display: flex;
@@ -88,4 +92,56 @@
     width: 8rem;
     box-shadow: -10px  5px 5px;
 
+}
+.home{
+   
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+.home #carousel{
+  
+   
+}
+.home #carousel .item img{
+    height: 400px;
+
+   
+}
+
+/* after animation */
+.home .container{
+    display: flex;
+    flex-direction: column;
+   
+    height: 60px;
+    
+    margin-left: 10px;
+    
+}
+.container h2{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.container .icon i img{
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px;
+    width: 30px;
+}
+ .Trending{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 1rem;
+ }
+.Trending .movie{
+    display: flex;
+    gap: 20px;
+}
+.Trending h2 i{
+    color: yellow;
+}
+.Trending .movie img{
+    width: 300px;
 }
