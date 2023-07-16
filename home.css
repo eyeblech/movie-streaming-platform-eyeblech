@@ -100,11 +100,15 @@ body{
     color: white;
 }
 .home #carousel{
-  
-   
+}
+
+#carousel .item{
+    height: 400px;
 }
 .home #carousel .item img{
-    height: 400px;
+    position: absolute;
+    height:600px ;
+
 
    
 }
