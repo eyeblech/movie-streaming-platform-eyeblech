@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*------header section css----*/
+.header{
+    display: flex;
+    align-items: self-end;
+    height: 60px;
+    background-color: rgb(39, 39, 194);
+}
+.header .logo img{
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: red;
+    height: 45px;
+    width: 80px;
+}
+
+.navbar ul{
+    display: flex;
+    column-gap: 30px;
+    width: 40rem;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.navbar ul li{
+    
+    text-align: center;
+    height: 20px;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+
+}
+.navbar ul li a:hover{
+    color: red;
+}
