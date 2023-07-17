@@ -34,3 +34,31 @@ span{
 
 
 /* my_list CSS */
+
+.my_list_h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
+.my_list_div{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.plan_to_divs{
+    
+    
+    height: 40px;
+    width: 200px;
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+    
+
+}
+.my_list_body{
+    background: linear-gradient(180deg, #613737 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+.plan_to_divs span{
+    color: white;
+}
