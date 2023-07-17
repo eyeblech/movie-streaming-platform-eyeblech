@@ -99,8 +99,6 @@ body{
     overflow: hidden;
     color: white;
 }
-.home #carousel{
-}
 
 #carousel .item{
     height: 400px;
@@ -146,6 +144,16 @@ body{
 .Trending h2 i{
     color: yellow;
 }
+.movie{
+    position: relative;
+    display: inline-block;
+
+}
 .Trending .movie img{
     width: 300px;
+   height: auto;
+   transition: transform 0.3s ease-in-out;
+}
+.Trending .movie img:hover{
+    transform: scale(1.2);
 }
