@@ -96,26 +96,48 @@ body{
 .home{
    
     position: relative;
-    overflow: hidden;
-    color: white;
+    /* overflow: hidden;
+    color: white; */
 }
 
-#carousel .item{
-    height: 400px;
+#carousel{
+   
+    /* height: 600px; */
 }
-.home #carousel .item img{
-    position: absolute;
-    height:600px ;
+#carousel .item{ 
+    /* position: relative; */
+   /* height: 600px;  */
+   
+}
+#carousel .item img{
+    /* position: absolute; */
+    height:400px ;
+    /* object-fit: fill; */
+
 
 
    
+}
+.banner__carousal__wrapper{
+    position: relative;
+}
+
+.banner__carousal__wrapper .container{
+    position: absolute;
+    bottom: 2rem;
+    z-index: 999;
 }
 
 /* after animation */
-.home .container{
+.display{
     display: flex;
     flex-direction: column;
-   
+    gap: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
     height: 60px;
     
     margin-left: 10px;
