@@ -100,15 +100,6 @@ body{
     color: white; */
 }
 
-#carousel{
-   
-    /* height: 600px; */
-}
-#carousel .item{ 
-    /* position: relative; */
-   /* height: 600px;  */
-   
-}
 #carousel .item img{
     /* position: absolute; */
     height:400px ;
