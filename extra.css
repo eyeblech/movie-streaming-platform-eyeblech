@@ -62,3 +62,23 @@ span{
 .plan_to_divs span{
     color: white;
 }
+
+/* community part */
+.community{
+    background: linear-gradient(180deg, #000 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+.commu_para{
+    text-align: center;
+    font-size: xx-large;
+    color: yellow;
+    text-shadow: #613737;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.community_div{
+    width: 382px;
+height: 73px;
+flex-shrink: 0;
+display: flex;
+background: white;
+border-radius: 20px;
+}
