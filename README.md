@@ -4,6 +4,9 @@
 
 eyeblech.to will be the next-gen movie streaming platform 
 
+can view at figma the wireframe and the prototype https://www.figma.com/file/pYuf4YrOIh6wnSngoVEkWe/eyeblech.to?type=design&node-id=0%3A1&mode=design&t=qGC5jtmsIEzpQgh3-1
+
+
 
 
 
